@@ -21,3 +21,5 @@ if(checkMail==true){
 else{
     console.log("non invitato")
 }
+
+// esercizio 2
