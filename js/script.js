@@ -22,4 +22,24 @@ else{
     console.log("non invitato")
 }
 
-// esercizio 2
+// esercizio 2+
+// indico al player di inserire un numero compreso tra 1-6
+
+ 
+// assegno la variabile human dove
+let human = prompt("inserisci un numero tra uno e 6");
+console.log(human);
+let pc =  Math.floor(Math.random()*6)+1;
+console.log(pc);
+
+if(human<pc){
+    console.log("hai perso");
+}
+else if (human>pc){
+    console.log("hai vinto");
+}
+else{
+    console.log("pari");
+}
+
+
